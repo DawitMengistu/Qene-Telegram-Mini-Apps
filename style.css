@@ -3,3 +3,56 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.sg-con {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    /* background-color: gray; */
+    padding: 10px;
+}
+
+.dis-con {
+    /* width: 100%; */
+    /* background-color: yellowgreen; */
+    padding: 12px;
+}
+
+.sg-img-con {
+    width: 80px;
+    height: 80px;
+    /* background-color: green; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sg-img {
+    width: 100%;
+    height: auto;
+}
+
+
+.game-title {
+    font-size: large;
+}
+
+.game-dis {
+    font-size: 15px;
+}
+
+.play-btn-con {
+    width: 80px;
+}
+
+.play-btn {
+    border-radius: 5px;
+    padding: 9px 22px;
+    color: white;
+    border: none;
+    background-color: #0c60a5;
+}
